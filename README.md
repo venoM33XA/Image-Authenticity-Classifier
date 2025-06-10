@@ -40,5 +40,4 @@ This project implements a **multi-stage pipeline** for detecting fake images and
 
 ---
 
-## 🗂️ Project Structure
 
