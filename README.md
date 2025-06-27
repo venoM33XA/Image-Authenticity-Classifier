@@ -17,7 +17,7 @@ This project implements a **multi-stage pipeline** for detecting fake images and
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tools Used
 
 - **TinyViT** – Lightweight Vision Transformer for image classification.
 - **ESRGAN** – Deep learning model for image super-resolution.
@@ -36,7 +36,7 @@ This project implements a **multi-stage pipeline** for detecting fake images and
    - **Prediction:** Fake
    - **Enhanced Image:** ![enhanced](assets/sample_enhanced.jpg)
    - **Explanation:**  
-     > "The facial shadows and lighting are inconsistent. Hair strands appear unnaturally smoothed, especially around the edges—typical signs of AI-generated content."
+   
 
 ---
 
