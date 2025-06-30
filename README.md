@@ -23,7 +23,7 @@ This project implements a **multi-stage pipeline** for detecting fake images and
 ## 🧪 Example Workflow
 
 1. Input Image:
-   ![input](assets/sample_input.jpg)
+   ![input](10_fake.jpg)
 
 2. Output:
    - **Prediction:** Fake
