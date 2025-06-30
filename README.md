@@ -20,6 +20,19 @@ This project implements a **multi-stage pipeline** for detecting fake images and
    - A more specific respone for the images were achieved with the help of prompt engineering and a bit of finetuning for structuring the output formats.
 
 ---
+## 🧪 Example Workflow
+
+1. Input Image:
+   ![input](assets/sample_input.jpg)
+
+2. Output:
+   - **Prediction:** Fake
+   - **Enhanced Image:** ![enhanced](inference1.jpg)
+   - **Explanation:**  An explanation of the present artifacts in the given image which inferred that the image is indeed fake
+   
+
+---
+
 
 ## 🛠️ Tools Used
 
@@ -31,17 +44,5 @@ This project implements a **multi-stage pipeline** for detecting fake images and
 
 ---
 
-## 🧪 Example Workflow
-
-1. Input Image:
-   ![input](assets/sample_input.jpg)
-
-2. Output:
-   - **Prediction:** Fake
-   - **Enhanced Image:** ![enhanced](assets/sample_enhanced.jpg)
-   - **Explanation:**  An explanation of the present artifacts in the given image which inferred that the image is indeed fake
-   
-
----
 
 
