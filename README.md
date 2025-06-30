@@ -1,4 +1,4 @@
-# Fake Image Classifier 🔍🧠
+# Image_Authenticity_classifier 🔍🧠
 
 This project implements a **multi-stage pipeline** for detecting fake images and explaining the visual artifacts that suggest manipulation. It combines state-of-the-art models in computer vision and natural language processing to deliver both **classification** and **explanation**.
 
