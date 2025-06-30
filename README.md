@@ -8,12 +8,16 @@ This project implements a **multi-stage pipeline** for detecting fake images and
 
 1. **Fake/Real Classification**
    - A **Tiny Vision Transformer (TinyViT)** is trained to classify images as either **real** or **fake**.
+   - Trained on images with perturbations -> Projected Gradient descent
+   -  Gave >99% accuracy on train ,as well as on test data 
 
 2. **Resolution Enhancement**
    - Images predicted as fake are passed through **ESRGAN** (Enhanced Super-Resolution Generative Adversarial Network) to enhance resolution and reveal finer details.
+   - Used in training for half of the dataset , help model classify the artifacts which generalised well to images as low as 32*32 resolution as well.
 
 3. **Artifact Explanation**
-   - The enhanced fake images are analyzed using a **pretrained Qwen Vision-Language model**, which generates natural language explanations of visual artifacts that led to the "fake" classification.
+   - The enhanced fake images are analyzed using a **pretrained Qwen-2B-Instruct Vision-Language model**, which generates natural language explanations of visual artifacts that led to the "fake" classification.
+   - A more specific respone for the images were achieved with the help of prompt engineering and a bit of finetuning for structuring the output formats.
 
 ---
 
