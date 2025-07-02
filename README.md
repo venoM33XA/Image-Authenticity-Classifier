@@ -27,7 +27,6 @@ This project implements a **multi-stage pipeline** for detecting fake images and
 
 2. Output:
    - **Prediction:** Fake
-   - **Enhanced Image:** ![enhanced](inference1.jpg)
    - **Explanation:**  An explanation of the present artifacts in the given image which inferred that the image is indeed fake
    
 
