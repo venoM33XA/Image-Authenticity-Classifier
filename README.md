@@ -26,6 +26,7 @@ This project implements a **multi-stage pipeline** for detecting fake images and
    ![input](ai_image_copy.jpg)
 
 2. Output:
+   - ![input](ai_gen.jpg)
    - **Prediction:** Fake
    - **Explanation:**  An explanation of the present artifacts in the given image which inferred that the image is indeed fake
    
